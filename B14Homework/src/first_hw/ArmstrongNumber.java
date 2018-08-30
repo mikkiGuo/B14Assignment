@@ -2,7 +2,7 @@ package first_hw;
 
 public class ArmstrongNumber {
 
-	public void armstrongNumber(int num) {
+	public void getArmstrongNumber(int num) {
 		int length = String.valueOf(num).length();
 		int val = 0;
 		int numCopy = num;
@@ -20,7 +20,7 @@ public class ArmstrongNumber {
 	
 	public static void main(String[] args) {
 		ArmstrongNumber obj = new ArmstrongNumber();
-		obj.armstrongNumber(153);
+		obj.getArmstrongNumber(153);
 	}
 
 }

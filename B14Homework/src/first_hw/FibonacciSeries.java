@@ -6,7 +6,7 @@ public class FibonacciSeries {
 	 * Fibonacci Series
 	 * @param maxLength
 	 */
-	public void fibonacciSeries(int maxLength) {
+	public void getFibonacciSeries(int maxLength) {
 		int i = 0;
 		//initialize first two values in Fibonacci Series and print
 		int first = 0;
@@ -28,7 +28,7 @@ public class FibonacciSeries {
 	
 	public static void main(String[] args) {
 		FibonacciSeries obj = new FibonacciSeries();
-		obj.fibonacciSeries(8);
+		obj.getFibonacciSeries(8);
 
 	}
 

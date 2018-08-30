@@ -8,7 +8,7 @@ public class PrimeNumber {
 	 * Prime Number
 	 * @param maxLength
 	 */
-	public void primeNumber(int maxLength) {
+	public void getPrimeNumber(int maxLength) {
 		
 		if(maxLength == 0) {System.out.println("nothing to display because length is 0");}
 		else {
@@ -40,7 +40,7 @@ public class PrimeNumber {
 	public static void main(String[] args) {
 		
 		PrimeNumber obj = new PrimeNumber();
-		obj.primeNumber(10);
+		obj.getPrimeNumber(10);
 	}
 
 }

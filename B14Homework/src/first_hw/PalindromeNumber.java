@@ -6,7 +6,7 @@ public class PalindromeNumber {
 	 * Palindrome Number
 	 * @param maxLength
 	 */
-	public void palindromeNumber(int maxLength) {
+	public void getPalindromeNumber(int maxLength) {
 		int i = 0;	
 		while(i<maxLength) {
 			boolean isPalin = true;
@@ -27,7 +27,7 @@ public class PalindromeNumber {
 	
 	public static void main(String[] args) {
 		PalindromeNumber obj = new PalindromeNumber();
-		obj.palindromeNumber(30);
+		obj.getPalindromeNumber(30);
 
 	}
 
