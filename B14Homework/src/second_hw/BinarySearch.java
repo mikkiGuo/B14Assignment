@@ -35,7 +35,7 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		BinarySearch obj = new BinarySearch();
 		int[] arr = {1,2,3,4,5,6,7,8,9};
-		obj.binarySearch(arr, 8, 0, arr.length-1);
+		obj.binarySearch(arr, 3, 0, arr.length-1);
 
 	}
 
