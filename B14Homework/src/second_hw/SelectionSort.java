@@ -9,7 +9,7 @@ public class SelectionSort {
 	 * @param arr
 	 * find smallest then put in the first
 	 */	
-	public void selectionSort(int[] arr) {
+	public int[] selectionSort(int[] arr) {
 		for(int i = 0; i<arr.length-1; i++ ) {
 			int sIndex = i;
 			for(int j = i+1; j < arr.length; j++) {
@@ -22,7 +22,8 @@ public class SelectionSort {
 			arr[sIndex] = temp;
 		}
 		
-		System.out.println(Arrays.toString(arr));
+		//System.out.println(Arrays.toString(arr));
+		return arr;
 		
 	}
 	
